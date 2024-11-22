@@ -35,6 +35,7 @@
 - Variables cuantitativas continuas
 
 ### 2.3 Análisis de Cardinalidad
+- Análisis de missing
 - Valores únicos por variable
 - Frecuencias de categorías
 - Identificación de categorías raras
