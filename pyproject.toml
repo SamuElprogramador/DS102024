@@ -29,6 +29,8 @@ beautifulsoup4 = "^4.12.3"
 ipywidgets = "^8.1.5"
 liac-arff = "^2.5.0"
 openpyxl = "^3.1.5"
+psycopg2 = "^2.9.10"
+missingno = "^0.5.2"
 
 
 [build-system]
