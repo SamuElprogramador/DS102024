@@ -29,13 +29,12 @@ beautifulsoup4 = "^4.12.3"
 ipywidgets = "^8.1.5"
 liac-arff = "^2.5.0"
 openpyxl = "^3.1.5"
-<<<<<<< HEAD
 psycopg2 = "^2.9.10"
 missingno = "^0.5.2"
-=======
 yfinance = "^0.2.50"
 orjson = "^3.10.14"
->>>>>>> upstream/main
+scikit-optimize = "^0.10.2"
+optuna = "^4.2.0"
 
 
 [build-system]
