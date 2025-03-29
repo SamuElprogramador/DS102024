@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "env-deep"
+version = "0.1.0"
+description = ""
+authors = ["Juan_Maniglia <90753457+JuanManiglia@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+tensorflow = "2.17.0"
+tensorflow-io-gcs-filesystem = "0.31.0"
+keras_tuner = "1.4.6"
+tensorboard = "2.17.1"
+pydot = "^3.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
