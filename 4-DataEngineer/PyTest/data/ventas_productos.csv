@@ -1,0 +1,21 @@
+id,fecha,producto,categoria,precio,cantidad,descuento,total
+1,2023-01-05,Laptop HP,Electrónica,899.99,1,0.05,854.99
+2,2023-01-10,Monitor Dell,Electrónica,249.99,2,0.00,499.98
+3,2023-01-15,Teclado Logitech,Accesorios,59.99,3,0.10,161.97
+4,2023-01-20,Mouse Inalámbrico,Accesorios,29.99,5,0.00,149.95
+5,2023-01-25,Disco SSD 500GB,Almacenamiento,89.99,2,0.15,152.98
+6,2023-02-01,Memoria RAM 16GB,Componentes,79.99,4,0.05,303.96
+7,2023-02-05,Impresora HP,Electrónica,199.99,1,0.10,179.99
+8,2023-02-10,Webcam HD,Accesorios,49.99,3,0.00,149.97
+9,2023-02-15,Auriculares Bluetooth,Audio,69.99,2,0.20,111.98
+10,2023-02-20,Tablet Samsung,Electrónica,349.99,1,0.05,332.49
+11,2023-02-25,Cable HDMI,Accesorios,12.99,5,0.00,64.95
+12,2023-03-01,Adaptador USB-C,Accesorios,19.99,4,0.10,71.96
+13,2023-03-05,Disco Duro Externo 1TB,Almacenamiento,129.99,2,0.15,220.98
+14,2023-03-10,Router WiFi,Redes,89.99,1,0.00,89.99
+15,2023-03-15,Altavoces,Audio,79.99,2,0.05,151.98
+16,2023-03-20,Cargador Portátil,Accesorios,39.99,3,0.10,107.97
+17,2023-03-25,Smartwatch,Wearables,159.99,1,0.20,127.99
+18,2023-04-01,Tarjeta Gráfica,Componentes,299.99,1,0.05,284.99
+19,2023-04-05,Procesador Intel,Componentes,249.99,1,0.00,249.99
+20,2023-04-10,Cámara Digital,Electrónica,399.99,1,0.15,339.99
