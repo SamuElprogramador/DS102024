@@ -1,0 +1,17 @@
+[project]
+name = "polarspyspark"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastparquet>=2024.11.0",
+    "notebook>=7.3.3",
+    "pandas>=2.2.3",
+    "polars>=1.26.0",
+    "prefect>=3.3.3",
+    "pyarrow>=19.0.1",
+    "pydantic>=2.11.3",
+    "pyspark>=3.5.5",
+    "sqlalchemy>=2.0.40",
+]

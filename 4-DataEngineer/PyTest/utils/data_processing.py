@@ -35,8 +35,8 @@ def categorizar_productos_por_precio(df):
     condiciones = [
         (df['precio'] < 50),
         (df['precio'] >= 50) & (df['precio'] < 100),
-        (df['precio'] >= 100) & (df['precio'] < 200),
-        (df['precio'] >= 200)
+        (df['precio'] >= 100) & (df['precio'] < 300),
+        (df['precio'] >= 300)
     ]
     categorias = ['Económico', 'Estándar', 'Premium', 'Lujo']
     
