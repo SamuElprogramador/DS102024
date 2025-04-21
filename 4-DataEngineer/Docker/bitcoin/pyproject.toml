@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bitcoin_etl"
+version = "0.1.0"
+description = "Bitcoin ETL Incremental para bootcamp de Data Engineering"
+requires-python = ">=3.11"
+authors = [
+    {name = "Data Engineering Bootcamp"},
+]
+
+dependencies = [
+    "polars",
+    "pydantic",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "requests",
+    "python-dotenv",
+    "configparser",
+    "schedule",
+    "pyarrow>=19.0.1",
+    "fastparquet>=2024.11.0",
+    "matplotlib>=3.10.1",
+    "adbc-driver-postgresql>=1.5.0",
+    "connectorx>=0.4.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "isort",
+]
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+# Especificar explícitamente los paquetes a incluir
+[tool.hatch.build.targets.wheel]
+packages = ["bitcoin_etl"]
